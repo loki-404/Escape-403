@@ -6,4 +6,4 @@ Bypass-403 is a Bash script designed to test for 403 Bypass vulnerabilities on a
 ## Usage
 
 ```bash
-./test-403.sh <url> <path> [-w|--no-wayback] [-h|--help]
+./test-403.sh <url> <path> [options: -w|--no-wayback] [-h|--help]
