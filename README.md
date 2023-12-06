@@ -16,28 +16,29 @@ Examples
   ```
 ./bypass-403.sh https://example.com /admin
 ```
-Tests Performed
-.Empty path
-.Path containing /../
-.Path ending with /./
-.Double slash // in the path
-.Various headers like X-Original-URL, X-Custom-IP-Authorization, etc.
-.URL encoding tests
-.Additional tests for common security misconfigurations
-./etc/passwd inclusion
-.Tilde (~) access
-.git directory configuration
-.WEB-INF directory checks
-.svn directory entries
-.DS_Store file
-.Various encoded path variations
+Tests Performed 
+.Empty path<br>
+.Path containing /../<br>
+.Path ending with /./<br>
+.Double slash // in the path<br>
+.Various headers like X-Original-URL, X-Custom-IP-Authorization, etc.<br>
+.URL encoding tests<br>
+.Additional tests for common security misconfigurations<br>
+./etc/passwd inclusion<br>
+.Tilde (~) access<br>
+.git directory configuration<br>
+.WEB-INF directory checks<br>
+.svn directory entries<br>
+.DS_Store file<br>
+.Various encoded path variations<br>
 
 Wayback Machine
 The script checks the Wayback Machine for the provided URL path by default. Use the -w option to skip this check.
 
-Dependencies
-`curl`
-`jq`
+Dependencies<br>
+`curl`<br>
+`jq`<br>
+
 License
 This script is licensed under the MIT License.
 
