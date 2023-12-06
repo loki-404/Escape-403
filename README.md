@@ -1,7 +1,7 @@
 # Test-403
 ## Overview
 
-Bypass-403 is a Bash script designed to test for 403 Bypass vulnerabilities on a specified URL path. It includes various tests to check for common bypass techniques.
+Test-403 is a Bash script designed to test for 403 Bypass vulnerabilities on a specified URL path. It includes various tests to check for common bypass techniques.
 
 ## Usage
 
@@ -16,7 +16,7 @@ Options
 
 Examples
   ```
-./bypass-403.sh https://example.com /admin
+./test-403.sh https://example.com /admin
 ```
 Tests Performed
 
