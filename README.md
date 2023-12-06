@@ -9,16 +9,17 @@ Bypass-403 is a Bash script designed to test for 403 Bypass vulnerabilities on a
 ```
 ./test-403.sh <url> <path> [options: -w|--no-wayback] [-h|--help]
 ```
-##Options
+Options
 
 -w, --no-wayback: Skip Wayback Machine URL check<br>
 -h, --help: Show this help message
 
-##Examples
+Examples
   ```
 ./bypass-403.sh https://example.com /admin
 ```
-##Tests Performed
+Tests Performed
+
 .Empty path<br>
 .Path containing /../<br>
 .Path ending with /./<br>
@@ -41,7 +42,8 @@ Dependencies<br>
 `curl`<br>
 `jq`<br>
 
-##License
+License
+
 This script is licensed under the MIT License.
 
 Make sure to replace `<url>` and `<path>` placeholders with actual values in your usage examples. Feel free to adjust or expand the content based on your specific requirements.
