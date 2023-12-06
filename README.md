@@ -42,7 +42,7 @@ The script checks the Wayback Machine for the provided URL path by default. Use 
 `curl`<br>
 `jq`<br>
 
-*License*
+*License*<br>
 This script is licensed under the MIT License.
 
 Make sure to replace `<url>` and `<path>` placeholders with actual values in your usage examples. Feel free to adjust or expand the content based on your specific requirements.
