@@ -35,8 +35,7 @@ Tests Performed
 .DS_Store file<br>
 .Various encoded path variations<br>
 
-Wayback Machine
-
+Wayback Machine<br>
 The script checks the Wayback Machine for the provided URL path by default. Use the -w option to skip this check.
 
 Dependencies<br>
