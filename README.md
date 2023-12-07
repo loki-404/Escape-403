@@ -1,13 +1,13 @@
-# Test-403
+# Escape-403
 ## Overview
 
-Test-403 is a Bash script designed to test for 403 Bypass vulnerabilities on a specified URL path. It includes various tests to check for common bypass techniques.
+Escape-403 is a Bash script designed to test for 403 Bypass vulnerabilities on a specified URL path. It includes various tests to check for common bypass techniques.
 
 ## Usage
 
 
 ```
-./test-403.sh <url> <path> [options: -w|--no-wayback] [-h|--help]
+./escape-403.sh <url> <path> [options: -w|--no-wayback] [-h|--help]
 ```
 *Options*
 
@@ -16,7 +16,7 @@ Test-403 is a Bash script designed to test for 403 Bypass vulnerabilities on a s
 
 *Examples*
   ```
-./test-403.sh https://example.com /admin
+./escape-403.sh https://example.com /admin
 ```
 *Tests Performed*
 
