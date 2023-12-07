@@ -3,7 +3,7 @@
 # Function to display banner
 show_banner() {
     echo "============================"
-    figlet -f standard Bypass-403
+    figlet -f standard Escape-403
     echo "                                                -Loki-404"
     echo "============================"
     echo "Usage: $0 <url> <path> [-w|--no-wayback] [-h|--help]"
@@ -70,8 +70,6 @@ echo
 test_bypass "" ""
 test_bypass "/%2e/" ""
 test_bypass "/$path/." ""
-test_bypass "/login"
-test_bypass "/logon"
 test_bypass "//$path//" ""
 test_bypass "/./$path/./" ""
 test_bypass "/$path" "-H X-Original-URL: $path"
